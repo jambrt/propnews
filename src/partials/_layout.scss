@@ -3,8 +3,18 @@ body{
     background: url('../images/mountains.jpg');
     background-size: cover;
     background-attachment: fixed;
-    backdrop-filter: brightness(50%);
-    animation: bgFade 2.5s ease;
+    position: relative;
+    &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(#000, 0.5);
+        animation: bgFade 2.5s ease;
+    }
 }
 .app{
     padding: 80px;

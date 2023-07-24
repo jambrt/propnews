@@ -99,16 +99,16 @@
 
 @-webkit-keyframes bgFade{
     from{
-        filter: brightness(0%);
+        background: rgba(#000, 1);
     }
 }
 @-moz-keyframes bgFade{
     from{
-        filter: brightness(0%);
+        background: rgba(#000, 1);
     }
 }
 @keyframes bgFade{
     from{
-        filter: brightness(0%);
+        background: rgba(#000, 1);
     }
 }
