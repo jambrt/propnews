@@ -8,7 +8,7 @@ Built using:
 
 ### Installation
 
-To run the project on a local development server please install React and the Snowpack Sass plugin in the project directory:
+To run the project on a local development server, please install React and the Snowpack Sass plugin in the project directory:
 
 ```
 npm install react react-dom --save
