@@ -1,0 +1,23 @@
+@use 'breakpoints' as bp;
+.app_header{
+    width: 100%;
+    min-height: 33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: splashScreen 2.5s ease backwards;
+    z-index: 99;
+}
+@media (max-width: bp.$sm-1){
+    .app_header{
+        min-height: 25vh;
+    }
+}
+.app_header h1{
+    color: #fff;
+    display: block;
+    animation: blurFadeUp 0.5s ease-out;
+}
