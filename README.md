@@ -14,3 +14,7 @@ To run the project on a local development server, please install React and the S
 npm install react react-dom --save
 npm i @snowpack/plugin-sass
 ```
+And then run:
+```
+npm start
+```
